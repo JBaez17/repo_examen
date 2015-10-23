@@ -22,7 +22,8 @@ def valores_vistos(num_iteraciones):
 
 
 def realizar_tirada():
-    cantidad_iteraciones = input("Cuantas iteraciones se deben realizar?")
+    # cantidad_iteraciones = input("Cuantas iteraciones se deben realizar?")
+    cantidad_iteraciones = 8
     apariciones = valores_vistos(cantidad_iteraciones)
     for key in apariciones:
         print ("{0} aparecio {1} veces".format(key, apariciones[key]))
